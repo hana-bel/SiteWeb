@@ -1,0 +1,38 @@
+
+body{margin:0px auto;}
+section.top-page{
+    background: url("../image/pancakes.jpg");
+    height:80vh;
+    background-size: cover;
+    padding: 25px;
+}
+header.header img {
+    width:150px ;
+
+}
+header.header{
+    display: flex;
+    align-items: center;
+    background-color: darkorange;
+    
+}
+/* la page principal landing-page */
+.big-title{
+    color: white;
+    font-size: 80px;
+    padding: 20px 50px;
+}
+/* menu du site */
+nav.nav{
+    display: flex;
+    list-style: none;
+    background-color: blueviolet;
+    margin-left: 30px;
+    width: 400px;
+    justify-content: space-between;
+    
+    
+}
+nav.nav li{
+    color:white;
+}
