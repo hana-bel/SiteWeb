@@ -1,4 +1,6 @@
-
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+*{font-family: "Montserrat";}
 body{margin:0px auto;}
 section.top-page{
     background: url("../image/pancakes.jpg");
@@ -13,20 +15,22 @@ header.header img {
 header.header{
     display: flex;
     align-items: center;
-    background-color: darkorange;
+   
     
 }
 /* la page principal landing-page */
 .big-title{
     color: white;
     font-size: 80px;
-    padding: 20px 50px;
+   
+    font-family:'Abril FatFace', Times, serif;
+   
 }
 /* menu du site */
 nav.nav{
     display: flex;
     list-style: none;
-    background-color: blueviolet;
+   
     margin-left: 30px;
     width: 400px;
     justify-content: space-between;
@@ -36,4 +40,15 @@ nav.nav{
 nav.nav li{
     color:white;
 }
-h1{color: #000;}
+
+.landing-page{
+  
+    padding: 20px 50px;
+    color:white;
+}
+.scroll-down{
+   color: white;
+   text-decoration: none;
+   position: absolute;
+   bottom: 160px;
+}
